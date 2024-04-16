@@ -1,0 +1,4 @@
+
+As you know, the Dense layers in tensorflow calculate the output (y) based on the inputs (x) as y = wx + b, and in this process w and b are learned. Now we want to design a layer that uses the equation y = vx^3 - wx + b to calculate the output based on the input. Actually, this layer should learn v, w and b.
+
+To use this layer, build a model to predict classes for the MNIST dataset. From this dataset, keep only the part that includes outputs 0, 2, and 5. Compare your model including two hidden layers with the new layer you designed with the model with two hidden Dense layers for 50 epochs on the train and validation data and display the loss and accuracy.
