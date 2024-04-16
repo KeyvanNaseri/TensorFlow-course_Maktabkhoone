@@ -1,0 +1,3 @@
+Implement the model you built in the first question, this time with a custom training loop for 100 epochs.
+
+Display loss and mean_absolute_error measure for train and validation data in first epochs and multiples of 10.
