@@ -1,0 +1,3 @@
+One of the evaluation criteria in classification is the f-beta criterion (refer to the f-beta section of the opposite link: https://en.wikipedia.org/wiki/F-score). Define this criterion yourself in TensorFlow.
+
+Build a model with 3 hidden layers and 50 neurons in each layer to predict classes in the CIFAR10 dataset and display the value of this criterion on the train and validation data for epoch
