@@ -1,5 +1,10 @@
-Create a new convolutional layer that performs a convolution with a filter of size (3 and 3) and a convolution of dimensions (5 and 5) on the input data, and then concatenates the result of these two together (tf.keras.layers.Concatenate()).
+Create a new convolutional layer that performs a convolution with a filter of size (3 and 3) and a convolution of dimensions (5 and 5) on the input data,
+and then concatenates the result of these two together (tf.keras.layers.Concatenate()).
+
 Modify the MNIST dataset as in question 3.
+
 Build a convolutional model to predict classes in this dataset. 
-Build this model once with the usual two hidden convolutional layers in Tensorflow with the desired filter size and once with the two new hidden convolutional layers you created in this question. 
+Build this model once with the usual two hidden convolutional layers in Tensorflow with the desired filter size 
+and once with the two new hidden convolutional layers you created in this question. 
+
 Evaluate the performance of these two models for 100 epochs on train and validation data. Compare the fitting time of two models.
